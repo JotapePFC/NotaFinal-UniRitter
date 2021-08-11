@@ -1,0 +1,75 @@
+header {
+    background-color: white;
+}
+
+
+body {
+    font: normal 18pt Sans-serif;
+    color: black;
+    background-color: white;
+}
+
+h1 {
+    color: black;
+    text-align: center;
+}
+
+input {
+    font: normal 14pt Sans-serif;
+    width: 100px;
+    text-align: center;
+    align-items: center;
+    margin-top: 20px;
+
+}
+
+div#notas {
+    margin-bottom: 20px;
+    text-align: center;
+
+}
+
+div#nfinal {
+    margin-top: 30px;
+    text-align: center;
+}
+
+section {
+    background: red;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.472);
+}
+
+#button {
+    position: relative;
+    background-color: black;
+    border: none;
+    border-radius: 30px;
+    font-size: 18px;
+    color: #FFFFFF;
+    padding: 10px;
+    width: 142px;
+    text-align: center;
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+#button:hover {
+    color: black;
+    background-color: white;
+}
+
+footer {
+    width: 100%;
+    height: 50px;
+    margin: auto;
+    bottom: 0;
+    position: fixed;
+    text-align: center;
+    font-size: medium;
+}
